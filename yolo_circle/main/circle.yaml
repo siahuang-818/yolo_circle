@@ -1,0 +1,8 @@
+train: 'C:\Python\PythonProject\yolo_circle\main\data\ImageSets\train.txt'
+val: 'C:\Python\PythonProject\yolo_circle\main\data\ImageSets\val.txt'
+test: 'C:\Python\PythonProject\yolo_circle\main\data\ImageSets\test.txt'
+nc: 2 # 填写类别数
+
+names: ['circle','square']  # 要和voc_label.py中的类别数目顺序一模一样
+
+# train,val,test的路径根据自己情况而定
